@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1560862073">
+  <project timestamp="1560862073">
+    <package name="Vanare\BehatCucumberJsonFormatter">
+      <file name="/media/docker-compose-dev/sources/behat-cucumber-json-formatter/src/Extension.php">
+        <class name="Extension" namespace="Vanare\BehatCucumberJsonFormatter">
+          <metrics methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="0" elements="25" coveredelements="0"/>
+        </class>
+        <line num="16" type="method" name="process" crap="2" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="23" type="method" name="getConfigKey" crap="2" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="31" type="method" name="initialize" crap="2" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="38" type="method" name="configure" crap="2" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="48" type="method" name="load" crap="2" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <metrics loc="60" ncloc="44" classes="1" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="0" elements="25" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="FranceMediasMonde\BehatCucumberJsonFormatter\Formatter">
+      <file name="/media/docker-compose-dev/sources/behat-cucumber-json-formatter/src/Formatter/Formatter.php">
+        <class name="Formatter" namespace="FranceMediasMonde\BehatCucumberJsonFormatter\Formatter">
+          <metrics methods="36" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="122" coveredstatements="41" elements="158" coveredelements="49"/>
+        </class>
+        <line num="112" type="method" name="__construct" crap="1" count="6"/>
+        <line num="114" type="stmt" count="6"/>
+        <line num="115" type="stmt" count="6"/>
+        <line num="116" type="stmt" count="6"/>
+        <line num="117" type="stmt" count="6"/>
+        <line num="118" type="stmt" count="6"/>
+        <line num="123" type="method" name="getSubscribedEvents" crap="2" count="0"/>
+        <line num="126" type="stmt" count="0"/>
+        <line num="145" type="method" name="getDescription" crap="2" count="0"/>
+        <line num="147" type="stmt" count="0"/>
+        <line num="155" type="method" name="getOutputPrinter" crap="2" count="0"/>
+        <line num="157" type="stmt" count="0"/>
+        <line num="166" type="method" name="setParameter" crap="2" count="0"/>
+        <line num="168" type="stmt" count="0"/>
+        <line num="169" type="stmt" count="0"/>
+        <line num="178" type="method" name="getParameter" crap="2" count="0"/>
+        <line num="180" type="stmt" count="0"/>
+        <line num="186" type="method" name="getTimer" crap="2" count="0"/>
+        <line num="188" type="stmt" count="0"/>
+        <line num="194" type="method" name="getMemory" crap="2" count="0"/>
+        <line num="196" type="stmt" count="0"/>
+        <line num="202" type="method" name="getSuites" crap="2" count="0"/>
+        <line num="204" type="stmt" count="0"/>
+        <line num="210" type="method" name="getCurrentSuite" crap="2" count="0"/>
+        <line num="212" type="stmt" count="0"/>
+        <line num="218" type="method" name="getFeatureCounter" crap="2" count="0"/>
+        <line num="220" type="stmt" count="0"/>
+        <line num="226" type="method" name="getCurrentFeature" crap="2" count="0"/>
+        <line num="228" type="stmt" count="0"/>
+        <line num="234" type="method" name="getCurrentScenario" crap="2" count="0"/>
+        <line num="236" type="stmt" count="0"/>
+        <line num="242" type="method" name="setCurrentScenario" crap="1" count="6"/>
+        <line num="244" type="stmt" count="6"/>
+        <line num="245" type="stmt" count="6"/>
+        <line num="250" type="method" name="getFailedScenarios" crap="2" count="0"/>
+        <line num="252" type="stmt" count="0"/>
+        <line num="258" type="method" name="getPassedScenarios" crap="2" count="0"/>
+        <line num="260" type="stmt" count="0"/>
+        <line num="266" type="method" name="getFailedFeatures" crap="2" count="0"/>
+        <line num="268" type="stmt" count="0"/>
+        <line num="274" type="method" name="getPassedFeatures" crap="2" count="0"/>
+        <line num="276" type="stmt" count="0"/>
+        <line num="282" type="method" name="getFailedSteps" crap="1" count="1"/>
+        <line num="284" type="stmt" count="1"/>
+        <line num="290" type="method" name="getPassedSteps" crap="1" count="3"/>
+        <line num="292" type="stmt" count="3"/>
+        <line num="298" type="method" name="getPendingSteps" crap="1" count="1"/>
+        <line num="300" type="stmt" count="1"/>
+        <line num="306" type="method" name="getSkippedSteps" crap="1" count="1"/>
+        <line num="308" type="stmt" count="1"/>
+        <line num="316" type="method" name="onBeforeExercise" crap="2" count="0"/>
+        <line num="318" type="stmt" count="0"/>
+        <line num="319" type="stmt" count="0"/>
+        <line num="326" type="method" name="onAfterExercise" crap="2" count="0"/>
+        <line num="328" type="stmt" count="0"/>
+        <line num="330" type="stmt" count="0"/>
+        <line num="331" type="stmt" count="0"/>
+        <line num="332" type="stmt" count="0"/>
+        <line num="337" type="method" name="onBeforeSuiteTested" crap="2" count="0"/>
+        <line num="339" type="stmt" count="0"/>
+        <line num="340" type="stmt" count="0"/>
+        <line num="341" type="stmt" count="0"/>
+        <line num="346" type="method" name="onAfterSuiteTested" crap="2" count="0"/>
+        <line num="348" type="stmt" count="0"/>
+        <line num="349" type="stmt" count="0"/>
+        <line num="354" type="method" name="onBeforeFeatureTested" crap="2" count="0"/>
+        <line num="356" type="stmt" count="0"/>
+        <line num="357" type="stmt" count="0"/>
+        <line num="358" type="stmt" count="0"/>
+        <line num="359" type="stmt" count="0"/>
+        <line num="360" type="stmt" count="0"/>
+        <line num="361" type="stmt" count="0"/>
+        <line num="362" type="stmt" count="0"/>
+        <line num="363" type="stmt" count="0"/>
+        <line num="364" type="stmt" count="0"/>
+        <line num="365" type="stmt" count="0"/>
+        <line num="370" type="method" name="onAfterFeatureTested" crap="6" count="0"/>
+        <line num="372" type="stmt" count="0"/>
+        <line num="373" type="stmt" count="0"/>
+        <line num="374" type="stmt" count="0"/>
+        <line num="376" type="stmt" count="0"/>
+        <line num="378" type="stmt" count="0"/>
+        <line num="383" type="method" name="onBeforeScenarioTested" crap="2" count="0"/>
+        <line num="385" type="stmt" count="0"/>
+        <line num="386" type="stmt" count="0"/>
+        <line num="387" type="stmt" count="0"/>
+        <line num="388" type="stmt" count="0"/>
+        <line num="389" type="stmt" count="0"/>
+        <line num="390" type="stmt" count="0"/>
+        <line num="391" type="stmt" count="0"/>
+        <line num="392" type="stmt" count="0"/>
+        <line num="393" type="stmt" count="0"/>
+        <line num="398" type="method" name="onAfterScenarioTested" crap="6" count="0"/>
+        <line num="400" type="stmt" count="0"/>
+        <line num="402" type="stmt" count="0"/>
+        <line num="403" type="stmt" count="0"/>
+        <line num="404" type="stmt" count="0"/>
+        <line num="406" type="stmt" count="0"/>
+        <line num="407" type="stmt" count="0"/>
+        <line num="410" type="stmt" count="0"/>
+        <line num="411" type="stmt" count="0"/>
+        <line num="412" type="stmt" count="0"/>
+        <line num="417" type="method" name="onBeforeOutlineTested" crap="2" count="0"/>
+        <line num="419" type="stmt" count="0"/>
+        <line num="420" type="stmt" count="0"/>
+        <line num="421" type="stmt" count="0"/>
+        <line num="422" type="stmt" count="0"/>
+        <line num="423" type="stmt" count="0"/>
+        <line num="424" type="stmt" count="0"/>
+        <line num="425" type="stmt" count="0"/>
+        <line num="426" type="stmt" count="0"/>
+        <line num="427" type="stmt" count="0"/>
+        <line num="432" type="method" name="onAfterOutlineTested" crap="6" count="0"/>
+        <line num="434" type="stmt" count="0"/>
+        <line num="436" type="stmt" count="0"/>
+        <line num="437" type="stmt" count="0"/>
+        <line num="438" type="stmt" count="0"/>
+        <line num="440" type="stmt" count="0"/>
+        <line num="441" type="stmt" count="0"/>
+        <line num="444" type="stmt" count="0"/>
+        <line num="445" type="stmt" count="0"/>
+        <line num="446" type="stmt" count="0"/>
+        <line num="451" type="method" name="onBeforeStepTested" crap="1" count="6"/>
+        <line num="453" type="stmt" count="6"/>
+        <line num="454" type="stmt" count="6"/>
+        <line num="459" type="method" name="onAfterStepTested" crap="1" count="6"/>
+        <line num="461" type="stmt" count="6"/>
+        <line num="463" type="stmt" count="6"/>
+        <line num="465" type="stmt" count="6"/>
+        <line num="466" type="stmt" count="6"/>
+        <line num="467" type="stmt" count="6"/>
+        <line num="468" type="stmt" count="6"/>
+        <line num="469" type="stmt" count="6"/>
+        <line num="470" type="stmt" count="6"/>
+        <line num="471" type="stmt" count="6"/>
+        <line num="472" type="stmt" count="6"/>
+        <line num="474" type="stmt" count="6"/>
+        <line num="476" type="stmt" count="6"/>
+        <line num="477" type="stmt" count="6"/>
+        <line num="479" type="method" name="getName" crap="2" count="0"/>
+        <line num="481" type="stmt" count="0"/>
+        <line num="488" type="method" name="processStep" crap="5.01" count="6"/>
+        <line num="491" type="stmt" count="6"/>
+        <line num="492" type="stmt" count="1"/>
+        <line num="494" type="stmt" count="1"/>
+        <line num="498" type="stmt" count="5"/>
+        <line num="499" type="stmt" count="1"/>
+        <line num="500" type="stmt" count="1"/>
+        <line num="502" type="stmt" count="1"/>
+        <line num="506" type="stmt" count="4"/>
+        <line num="507" type="stmt" count="4"/>
+        <line num="508" type="stmt" count="4"/>
+        <line num="509" type="stmt" count="4"/>
+        <line num="510" type="stmt" count="1"/>
+        <line num="511" type="stmt" count="1"/>
+        <line num="513" type="stmt" count="3"/>
+        <line num="516" type="stmt" count="4"/>
+        <line num="518" type="stmt" count="0"/>
+        <metrics loc="519" ncloc="337" classes="1" methods="36" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="122" coveredstatements="41" elements="158" coveredelements="49"/>
+      </file>
+    </package>
+    <file name="/media/docker-compose-dev/sources/behat-cucumber-json-formatter/src/Formatter/FormatterInterface.php">
+      <metrics loc="14" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="FranceMediasMonde\BehatCucumberJsonFormatter\Printer">
+      <file name="/media/docker-compose-dev/sources/behat-cucumber-json-formatter/src/Printer/FileOutputPrinter.php">
+        <class name="FileOutputPrinter" namespace="FranceMediasMonde\BehatCucumberJsonFormatter\Printer">
+          <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="25" elements="29" coveredelements="29"/>
+        </class>
+        <line num="24" type="method" name="__construct" crap="1" count="12"/>
+        <line num="26" type="stmt" count="12"/>
+        <line num="27" type="stmt" count="12"/>
+        <line num="28" type="stmt" count="10"/>
+        <line num="35" type="method" name="setOutputPath" crap="4" count="12"/>
+        <line num="37" type="stmt" count="12"/>
+        <line num="38" type="stmt" count="3"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="3"/>
+        <line num="48" type="stmt" count="9"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="58" type="stmt" count="10"/>
+        <line num="59" type="stmt" count="10"/>
+        <line num="150" type="method" name="write" crap="2" count="2"/>
+        <line num="152" type="stmt" count="2"/>
+        <line num="154" type="stmt" count="2"/>
+        <line num="155" type="stmt" count="1"/>
+        <line num="157" type="stmt" count="1"/>
+        <line num="159" type="stmt" count="2"/>
+        <line num="166" type="method" name="writeln" crap="1" count="1"/>
+        <line num="168" type="stmt" count="1"/>
+        <line num="169" type="stmt" count="1"/>
+        <metrics loc="179" ncloc="95" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="25" elements="29" coveredelements="29"/>
+      </file>
+    </package>
+    <package name="FranceMediasMonde\BehatCucumberJsonFormatter\Renderer">
+      <file name="/media/docker-compose-dev/sources/behat-cucumber-json-formatter/src/Renderer/JsonRenderer.php">
+        <class name="JsonRenderer" namespace="FranceMediasMonde\BehatCucumberJsonFormatter\Renderer">
+          <metrics methods="10" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="68" coveredstatements="68" elements="78" coveredelements="78"/>
+        </class>
+        <line num="24" type="method" name="__construct" crap="1" count="9"/>
+        <line num="26" type="stmt" count="9"/>
+        <line num="27" type="stmt" count="9"/>
+        <line num="31" type="method" name="render" crap="3" count="3"/>
+        <line num="33" type="stmt" count="3"/>
+        <line num="35" type="stmt" count="3"/>
+        <line num="36" type="stmt" count="3"/>
+        <line num="37" type="stmt" count="3"/>
+        <line num="40" type="stmt" count="3"/>
+        <line num="47" type="method" name="getResult" crap="3" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="51" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="57" type="stmt" count="1"/>
+        <line num="65" type="method" name="processSuite" crap="3" count="3"/>
+        <line num="67" type="stmt" count="3"/>
+        <line num="69" type="stmt" count="3"/>
+        <line num="70" type="stmt" count="3"/>
+        <line num="71" type="stmt" count="3"/>
+        <line num="75" type="stmt" count="3"/>
+        <line num="83" type="method" name="processFeature" crap="4" count="3"/>
+        <line num="86" type="stmt" count="3"/>
+        <line num="87" type="stmt" count="3"/>
+        <line num="88" type="stmt" count="3"/>
+        <line num="89" type="stmt" count="3"/>
+        <line num="90" type="stmt" count="3"/>
+        <line num="91" type="stmt" count="3"/>
+        <line num="92" type="stmt" count="3"/>
+        <line num="96" type="stmt" count="3"/>
+        <line num="97" type="stmt" count="2"/>
+        <line num="98" type="stmt" count="2"/>
+        <line num="102" type="stmt" count="3"/>
+        <line num="110" type="method" name="processScenario" crap="6" count="2"/>
+        <line num="113" type="stmt" count="2"/>
+        <line num="114" type="stmt" count="2"/>
+        <line num="115" type="stmt" count="2"/>
+        <line num="116" type="stmt" count="2"/>
+        <line num="117" type="stmt" count="2"/>
+        <line num="118" type="stmt" count="2"/>
+        <line num="119" type="stmt" count="2"/>
+        <line num="124" type="stmt" count="2"/>
+        <line num="125" type="stmt" count="2"/>
+        <line num="126" type="stmt" count="2"/>
+        <line num="130" type="stmt" count="2"/>
+        <line num="131" type="stmt" count="2"/>
+        <line num="132" type="stmt" count="2"/>
+        <line num="136" type="stmt" count="2"/>
+        <line num="144" type="method" name="processStep" crap="2" count="2"/>
+        <line num="147" type="stmt" count="2"/>
+        <line num="148" type="stmt" count="2"/>
+        <line num="149" type="stmt" count="2"/>
+        <line num="150" type="stmt" count="2"/>
+        <line num="151" type="stmt" count="2"/>
+        <line num="154" type="stmt" count="2"/>
+        <line num="155" type="stmt" count="2"/>
+        <line num="158" type="stmt" count="2"/>
+        <line num="166" type="method" name="processExample" crap="3" count="2"/>
+        <line num="169" type="stmt" count="2"/>
+        <line num="170" type="stmt" count="2"/>
+        <line num="171" type="stmt" count="2"/>
+        <line num="172" type="stmt" count="2"/>
+        <line num="173" type="stmt" count="2"/>
+        <line num="177" type="stmt" count="2"/>
+        <line num="178" type="stmt" count="2"/>
+        <line num="179" type="stmt" count="2"/>
+        <line num="183" type="stmt" count="2"/>
+        <line num="191" type="method" name="processExampleRow" crap="1" count="2"/>
+        <line num="194" type="stmt" count="2"/>
+        <line num="195" type="stmt" count="2"/>
+        <line num="196" type="stmt" count="2"/>
+        <line num="204" type="method" name="processTags" crap="2" count="2"/>
+        <line num="206" type="stmt" count="2"/>
+        <line num="208" type="stmt" count="2"/>
+        <line num="209" type="stmt" count="2"/>
+        <line num="210" type="stmt" count="2"/>
+        <line num="214" type="stmt" count="2"/>
+        <metrics loc="216" ncloc="166" classes="1" methods="10" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="68" coveredstatements="68" elements="78" coveredelements="78"/>
+      </file>
+    </package>
+    <file name="/media/docker-compose-dev/sources/behat-cucumber-json-formatter/src/Renderer/RendererInterface.php">
+      <metrics loc="10" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="6" loc="998" ncloc="663" classes="4" methods="55" coveredmethods="22" conditionals="0" coveredconditionals="0" statements="235" coveredstatements="134" elements="290" coveredelements="156"/>
+  </project>
+</coverage>
