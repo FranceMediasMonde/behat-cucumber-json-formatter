@@ -1,5 +1,10 @@
 # Behat Cucumber Json Formatter 
 
+[![Build Status](https://travis-ci.org/FranceMediasMonde/behat-cucumber-json-formatter.svg?branch=master)](https://travis-ci.org/FranceMediasMonde/behat-cucumber-json-formatter)
+
+[![Build Status](https://travis-ci.org/FranceMediasMonde/behat-cucumber-json-formatter.svg?branch=develop)](https://travis-ci.org/FranceMediasMonde/behat-cucumber-json-formatter)
+
+
 This is Behat extension for generating json reports for [Cucumber Test Result Plugin](https://github.com/jenkinsci/cucumber-testresult-plugin/) which provides graphs over time and drill down to individual results using the standard Jenkins test reporting mechanism.
 
 ## Requirements
