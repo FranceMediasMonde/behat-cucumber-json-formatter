@@ -1,3 +1,6 @@
-bin
-vendor
 .idea
+bin
+!/build
+/build/*
+!build/.gitignore
+vendor
