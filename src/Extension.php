@@ -1,9 +1,10 @@
 <?php
 
-namespace Vanare\BehatCucumberJsonFormatter;
+namespace FranceMediasMonde\BehatCucumberJsonFormatter;
 
 use Behat\Testwork\ServiceContainer\Extension as ExtensionInterface;
 use Behat\Testwork\ServiceContainer\ExtensionManager;
+use FranceMediasMonde\BehatCucumberJsonFormatter\Formatter\Formatter;
 use Symfony\Component\Config\Definition\Builder\ArrayNodeDefinition;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
@@ -47,7 +48,7 @@ class Extension implements ExtensionInterface
      */
     public function load(ContainerBuilder $container, array $config)
     {
-        $definition = new Definition('Vanare\\BehatCucumberJsonFormatter\\Formatter\\Formatter');
+        $definition = new Definition(Formatter::class);
 
         $definition->addArgument($config['filename']);
         $definition->addArgument($config['outputDir']);
